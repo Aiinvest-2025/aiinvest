@@ -1,0 +1,85 @@
+body {
+    background-color: #0e0e0e;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+    padding: 80px 0;
+    background: #021933;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn-swap {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.feature-box {
+    background: #1c1c1c;
+    border-radius: 16px;
+    padding: 30px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.feature-box:hover {
+    background: #2a2a2a;
+}
+
+iframe {
+    border-radius: 16px;
+    border: none;
+    max-width: 100%;
+}
+
+.roadmap-step {
+    border-left: 3px solid #0d6efd;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.team-card {
+    background: #1c1c1c;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.team-card img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #111;
+    padding: 40px 0;
+    color: #aaa;
+}
+
+footer a {
+    color: #888;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
