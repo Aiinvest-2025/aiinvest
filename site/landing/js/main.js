@@ -19,4 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }, { threshold: 0.2 });
         observer.observe(swapSection);
     }
+
+    loadSwapIframe = () => {
+        swapIframeContainer.scrollIntoView({ behavior: 'smooth' });
+    }
 });

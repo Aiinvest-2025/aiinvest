@@ -16,7 +16,15 @@
             <img src="./img/logo_250x250.png" alt="AIVES Logo" />
             <h1>AI Invest (AIVES)</h1>
             <p class="lead mt-3">Combining Artificial Intelligence & Decentralized Finance (DeFi) on Ethereum.</p>
-            <a href="#swap" class="btn btn-primary btn-swap" onclick="loadSwapIframe(event)">Swap AIVES now</a>
+            <button class="btn btn-primary btn-swap" onclick="loadSwapIframe(event)">Swap AIVES now</button>
+            <button type="button" class="btn btn-primary btn-swap"
+                onclick="window.open('../../whitepaper/whitepaper.pdf', '_blank')">
+                📄 Whitepaper
+            </button>
+            <button type="button" class="btn btn-primary btn-swap"
+                onclick="window.open('https://etherscan.io/token/0xcF2dF5724e66666601a18f1553CD4c77FECb344f', '_blank')">
+                View AIVES
+            </button>
         </div>
     </section>
 
@@ -75,33 +83,6 @@
         </div>
     </section>
 
-    <!-- Features -->
-    <section class="section bg-dark text-white text-center">
-        <div class="container">
-            <h2>Why Choose AIVES?</h2>
-            <div class="row g-4 mt-4">
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <h4>AI-Powered</h4>
-                        <p>Leverages AI to analyze, optimize, and predict financial markets.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <h4>DeFi Ready</h4>
-                        <p>Fully compatible with popular DeFi protocols for staking and liquidity.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <h4>Transparent & Community-Driven</h4>
-                        <p>Open development, transparent roadmap, and strong community focus.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Tokenomics -->
     <section class="section text-center">
         <div class="container">
@@ -109,10 +90,10 @@
             <div class="row justify-content-center mt-4">
                 <div class="col-md-8">
                     <ul class="list-group text-start">
-                        <li class="list-group-item bg-dark text-white">🔹 40% - Community & Airdrop</li>
+                        <li class="list-group-item bg-dark text-white">🔹 20% - Community & Airdrop</li>
                         <li class="list-group-item bg-dark text-white">🔹 25% - Project Development</li>
-                        <li class="list-group-item bg-dark text-white">🔹 15% - Founding Team (12-month lock)</li>
-                        <li class="list-group-item bg-dark text-white">🔹 10% - Marketing</li>
+                        <li class="list-group-item bg-dark text-white">🔹 25% - Founding Team (12-month lock)</li>
+                        <li class="list-group-item bg-dark text-white">🔹 20% - Marketing</li>
                         <li class="list-group-item bg-dark text-white">🔹 10% - Uniswap Liquidity</li>
                     </ul>
                 </div>
@@ -128,49 +109,11 @@
                 <div class="col-md-8">
                     <div class="roadmap-step">
                         <h5>Q2 2025 – Token Launch</h5>
-                        <p>Smart contract audit, website launch, Uniswap listing, community airdrop.</p>
+                        <p>DEX listing, community airdrop.</p>
                     </div>
                     <div class="roadmap-step">
-                        <h5>Q3 2025 – AI Prediction Tools</h5>
-                        <p>Deploy AI-based crypto market analysis tools.</p>
-                    </div>
-                    <div class="roadmap-step">
-                        <h5>Q4 2025 – Staking & DAO</h5>
-                        <p>Enable staking, community governance, and first CEX listing.</p>
-                    </div>
-                    <div class="roadmap-step">
-                        <h5>2026 – Ecosystem Expansion</h5>
-                        <p>Partnerships, cross-chain integration, mobile app development.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team -->
-    <section class="section text-center">
-        <div class="container">
-            <h2 class="text-white">Our Team</h2>
-            <div class="row g-4 mt-4">
-                <div class="col-md-4">
-                    <div class="team-card">
-                        <img src="https://i.pravatar.cc/100?img=2" alt="Founder 1" />
-                        <h5>Nguyen Van A</h5>
-                        <p>CEO – Blockchain Strategist</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-card">
-                        <img src="https://i.pravatar.cc/100?img=2" alt="Founder 2" />
-                        <h5>Tran Thi B</h5>
-                        <p>CTO – AI Developer</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team-card">
-                        <img src="https://i.pravatar.cc/100?img=2" alt="Founder 3" />
-                        <h5>Le Van C</h5>
-                        <p>CMO – Marketing & Community</p>
+                        <h5>Q4 2025 – CEX Listing</h5>
+                        <p>First CEX listing.</p>
                     </div>
                 </div>
             </div>
@@ -183,10 +126,6 @@
             <h2 class="text-white">Swap AIVES</h2>
             <p class="mb-4 text-white">Trade AIVES tokens securely and instantly via Uniswap:</p>
             <div class="d-flex justify-content-center">
-                <!-- <iframe
-                    src="https://app.uniswap.org/#/swap?outputCurrency=0xcF2dF5724e66666601a18f1553CD4c77FECb344f&chain=mainnet"
-                    height="660" width="420" style="border: none; border-radius: 16px;"
-                    tabindex="-1"></iframe> -->
                 <div id="swap-iframe-container"></div>
             </div>
         </div>
@@ -195,11 +134,9 @@
     <!-- Footer -->
     <footer class="text-center">
         <div class="container">
-            <p>&copy; 2025 AI Invest (AIVES). All rights reserved.</p>
+            <p>&copy; 2025 AI Invest (AIVES)</p>
             <p>
-                <a href="#">Telegram</a> |
-                <a href="#">Twitter</a> |
-                <a href="#">Whitepaper</a>
+                <a href="https://aiinvestingfund.com">contact</a>
             </p>
         </div>
     </footer>
